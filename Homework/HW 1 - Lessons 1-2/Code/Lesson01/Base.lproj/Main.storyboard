@@ -125,8 +125,8 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6R1-xP-8Pe">
-                                <rect key="frame" x="213" y="399" width="34" height="30"/>
-                                <state key="normal" title="Back"/>
+                                <rect key="frame" x="210" y="399" width="41" height="30"/>
+                                <state key="normal" title="Home"/>
                                 <connections>
                                     <segue destination="XfS-jJ-9IC" kind="show" id="PHP-Mr-Bxp"/>
                                 </connections>
