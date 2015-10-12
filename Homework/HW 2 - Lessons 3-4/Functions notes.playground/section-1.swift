@@ -62,11 +62,29 @@ Final note: don't be afraid to have long function names, they'll help you in big
 // Create a function knockknock that just prints the line "Who's there?"
 // This function has no parameters nor a return value
 
+func knockKnock() {
+    
+    print("Who's there?", terminator:"")
+    
+}
+
+
+
 
 // That was fun! Let's joke around and knock a few times more
 // Write a function knockMultipleTimes that accepts one paramter
 // That parameter will be an int that let's us specify how many times we want to knock
 // Within the function we have a loop that runs x ammount of times that calls the knock knock function
+
+func knockMultipleTimes (numOfKnocks: Int) {
+    
+    for var i = 0; i < numOfKnocks; i++ {
+        
+        print("knock knock")
+    }
+    
+}
+
 
 
 // HAHAHA, okay let's answer before the person behind the door goes nuts!
@@ -75,11 +93,34 @@ Final note: don't be afraid to have long function names, they'll help you in big
 // The function will just print "It's me, {firstname}, from {homeCountry}"
 
 
+func replyWhoIsHere (firstName: String, homeCountry: String) {
+    
+    print("It's me, \(firstName), from \(homeCountry)", terminator:"")
+}
+
+
+
+
+
+
+
 // Cool that worked! Let's say we want to reply with our age instead of home country!
 // We'll create a function calculateAge that accepts one parameter that will be yearOfBirth (Int)
 // The function will return the age (Int)
 // Use this code to do the calculation, don't worry about the code itself for now if you don't want to
 // Just copy and paste it in your function
+
+func calculateAge (yearOfBirth: Int) -> Int {
+    
+    let currentDate = NSDate()
+    let currentCalendar = NSCalendar.currentCalendar()
+    let currentYear = currentCalendar.component(NSCalendarUnit.Year, fromDate: currentDate)
+    let age = currentYear - yearOfBirth
+    
+    return age
+}
+
+
 /*
 let currentDate = NSDate()
 let currentCalendar = NSCalendar.currentCalendar()
@@ -94,11 +135,29 @@ let age = currentYear - yearOfBirth
 // The function will have one var: age, you will call the calculateAge function and store the return value in that var
 // After that you will print a line that states "{name}, my age is {age}", where {age} is the var of course!
 
+func tellNameAndAge (name: String, yearOfBirth: Int) {
+  
+    // suggesting that I change 'var' to 'let'. In the case of age, since it does eventually change, would it be best to leave it as a var?
+    
+    var age: Int = calculateAge(yearOfBirth)
+    
+    print ("\(name), and my age is \(age)", terminator:"")
+    
+}
+
 
 // Call knock knock
 
+knockKnock()
+
 // Call knockMultipleTimes
+
+knockMultipleTimes(3)
 
 // Call replyWhoIsHere
 
+replyWhoIsHere("Hez", homeCountry: "America")
+
 // Call tellNameAndAge
+
+tellNameAndAge("Hez", yearOfBirth: 1993)
