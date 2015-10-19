@@ -12,6 +12,7 @@
 		E30A88901BCC748500886A44 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E30A888E1BCC748500886A44 /* Main.storyboard */; };
 		E30A88921BCC748500886A44 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E30A88911BCC748500886A44 /* Assets.xcassets */; };
 		E30A88951BCC748500886A44 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E30A88931BCC748500886A44 /* LaunchScreen.storyboard */; };
+		E30A889F1BCC92C500886A44 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E30A889E1BCC92C500886A44 /* LoginController.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		E30A88941BCC748500886A44 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E30A88961BCC748500886A44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E30A889D1BCC7F7600886A44 /* myPlaygroundClassesExample.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = myPlaygroundClassesExample.playground; sourceTree = "<group>"; };
+		E30A889E1BCC92C500886A44 /* LoginController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				E30A88931BCC748500886A44 /* LaunchScreen.storyboard */,
 				E30A88961BCC748500886A44 /* Info.plist */,
 				E30A889D1BCC7F7600886A44 /* myPlaygroundClassesExample.playground */,
+				E30A889E1BCC92C500886A44 /* LoginController.swift */,
 			);
 			path = IntroToClasses;
 			sourceTree = "<group>";
@@ -137,6 +140,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E30A888D1BCC748500886A44 /* ViewController.swift in Sources */,
+				E30A889F1BCC92C500886A44 /* LoginController.swift in Sources */,
 				E30A888B1BCC748500886A44 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

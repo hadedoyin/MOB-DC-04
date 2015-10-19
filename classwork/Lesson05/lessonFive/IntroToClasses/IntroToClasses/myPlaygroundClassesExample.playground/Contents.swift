@@ -101,10 +101,30 @@ rangeRover.speed
 
 rangeRover.wheels
 
+//Arrays
 
 
+// var myFirstArrayt: [Int] = [2, 5, 232, 52, 66, 1, 643]
+
+var myFirstArray: Array = [2, 5, 232, 52, 66, 1, 643]
+myFirstArray.count
+
+myFirstArray.append(24)
+
+myFirstArray.count
+
+var myEmptyArray: [String] = []
 
 
+for i in myFirstArray {
+    
+    print("Current value is \(i)", terminator:"")
+}
+
+for var i = 0; i < myFirstArray.count; i++ {
+    
+    print("Current value is \(i)", terminator:"")
+}
 
 
 
