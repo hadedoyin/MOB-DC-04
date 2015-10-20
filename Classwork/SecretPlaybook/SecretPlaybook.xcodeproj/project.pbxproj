@@ -1,0 +1,294 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E3DB77981BD5CF34007E47B2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3DB77971BD5CF34007E47B2 /* AppDelegate.swift */; };
+		E3DB779A1BD5CF34007E47B2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3DB77991BD5CF34007E47B2 /* ViewController.swift */; };
+		E3DB779D1BD5CF34007E47B2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3DB779B1BD5CF34007E47B2 /* Main.storyboard */; };
+		E3DB779F1BD5CF34007E47B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3DB779E1BD5CF34007E47B2 /* Assets.xcassets */; };
+		E3DB77A21BD5CF34007E47B2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3DB77A01BD5CF34007E47B2 /* LaunchScreen.storyboard */; };
+		E3DB77AC1BD5D053007E47B2 /* MainTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3DB77AB1BD5D053007E47B2 /* MainTableViewController.swift */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E3DB77941BD5CF34007E47B2 /* SecretPlaybook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SecretPlaybook.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3DB77971BD5CF34007E47B2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E3DB77991BD5CF34007E47B2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E3DB779C1BD5CF34007E47B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E3DB779E1BD5CF34007E47B2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E3DB77A11BD5CF34007E47B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E3DB77A31BD5CF34007E47B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E3DB77AB1BD5D053007E47B2 /* MainTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTableViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E3DB77911BD5CF34007E47B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E3DB778B1BD5CF34007E47B2 = {
+			isa = PBXGroup;
+			children = (
+				E3DB77961BD5CF34007E47B2 /* SecretPlaybook */,
+				E3DB77951BD5CF34007E47B2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E3DB77951BD5CF34007E47B2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E3DB77941BD5CF34007E47B2 /* SecretPlaybook.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E3DB77961BD5CF34007E47B2 /* SecretPlaybook */ = {
+			isa = PBXGroup;
+			children = (
+				E3DB77971BD5CF34007E47B2 /* AppDelegate.swift */,
+				E3DB77991BD5CF34007E47B2 /* ViewController.swift */,
+				E3DB779B1BD5CF34007E47B2 /* Main.storyboard */,
+				E3DB779E1BD5CF34007E47B2 /* Assets.xcassets */,
+				E3DB77A01BD5CF34007E47B2 /* LaunchScreen.storyboard */,
+				E3DB77A31BD5CF34007E47B2 /* Info.plist */,
+				E3DB77AB1BD5D053007E47B2 /* MainTableViewController.swift */,
+			);
+			path = SecretPlaybook;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E3DB77931BD5CF34007E47B2 /* SecretPlaybook */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E3DB77A61BD5CF34007E47B2 /* Build configuration list for PBXNativeTarget "SecretPlaybook" */;
+			buildPhases = (
+				E3DB77901BD5CF34007E47B2 /* Sources */,
+				E3DB77911BD5CF34007E47B2 /* Frameworks */,
+				E3DB77921BD5CF34007E47B2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SecretPlaybook;
+			productName = SecretPlaybook;
+			productReference = E3DB77941BD5CF34007E47B2 /* SecretPlaybook.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E3DB778C1BD5CF34007E47B2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Hezekiah Adedoyin";
+				TargetAttributes = {
+					E3DB77931BD5CF34007E47B2 = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+				};
+			};
+			buildConfigurationList = E3DB778F1BD5CF34007E47B2 /* Build configuration list for PBXProject "SecretPlaybook" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E3DB778B1BD5CF34007E47B2;
+			productRefGroup = E3DB77951BD5CF34007E47B2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E3DB77931BD5CF34007E47B2 /* SecretPlaybook */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E3DB77921BD5CF34007E47B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3DB77A21BD5CF34007E47B2 /* LaunchScreen.storyboard in Resources */,
+				E3DB779F1BD5CF34007E47B2 /* Assets.xcassets in Resources */,
+				E3DB779D1BD5CF34007E47B2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E3DB77901BD5CF34007E47B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3DB779A1BD5CF34007E47B2 /* ViewController.swift in Sources */,
+				E3DB77AC1BD5D053007E47B2 /* MainTableViewController.swift in Sources */,
+				E3DB77981BD5CF34007E47B2 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E3DB779B1BD5CF34007E47B2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E3DB779C1BD5CF34007E47B2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E3DB77A01BD5CF34007E47B2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E3DB77A11BD5CF34007E47B2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E3DB77A41BD5CF34007E47B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E3DB77A51BD5CF34007E47B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E3DB77A71BD5CF34007E47B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SecretPlaybook/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hezplus.challenge.SecretPlaybook;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E3DB77A81BD5CF34007E47B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SecretPlaybook/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hezplus.challenge.SecretPlaybook;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E3DB778F1BD5CF34007E47B2 /* Build configuration list for PBXProject "SecretPlaybook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E3DB77A41BD5CF34007E47B2 /* Debug */,
+				E3DB77A51BD5CF34007E47B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E3DB77A61BD5CF34007E47B2 /* Build configuration list for PBXNativeTarget "SecretPlaybook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E3DB77A71BD5CF34007E47B2 /* Debug */,
+				E3DB77A81BD5CF34007E47B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E3DB778C1BD5CF34007E47B2 /* Project object */;
+}
