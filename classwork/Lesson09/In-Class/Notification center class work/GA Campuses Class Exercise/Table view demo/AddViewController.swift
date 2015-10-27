@@ -6,12 +6,6 @@
 //  Copyright (c) 2015 Tedi Konda. All rights reserved.
 //
 
-// NOtes - Notification Center (not the one you pull down) is used to trigger events (let your phone know when something happened so it can react)
-
-// selector = function to be executed
-// name = what is being targeted
-
-
 import UIKit
 
 // Protocol for delegation method needs to be added at the top of the class that's sending the data
@@ -52,11 +46,8 @@ class AddViewController: UIViewController, UITextFieldDelegate {
         // Name is the name of the notificaion we are listening for
         // BEST PRACTICE: you will almost always add notification observers in your viewDidLoad
         NSNotificationCenter.defaultCenter().addObserver(self,
-            
-            // function that runs in the selector below MUST have a colon to indicate that it is a function
             selector: "unhideCurrentLabels:",
             name: "unhideHiddenLabels",
-            // do not pass data through this object!!!!! Singletons (Notification Center) are running globally, and weighs down the performance of your app
             object: nil)
         
         // This is a notification that we get from iOS libraries, therefore we do not need to post the notification from anywhere. This gets triggered whenever a text field gets updated

@@ -8,14 +8,11 @@
 
 import UIKit
 
-
 class NamesTableViewController: UITableViewController, AddNameDelegate {
     
     // Keep track of all names in this array
     var names = [String]()
 
-   
-    
     override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return names.count
     }
@@ -31,25 +28,20 @@ class NamesTableViewController: UITableViewController, AddNameDelegate {
         return cell
     }
     
-    
-    
     func updateNames(name: String) {
         
     }
     
-    
-    
     func addName(name: String) {
-        
+    
         print(name)
         self.names.append(name)
         self.tableView.reloadData()
         
-    
     }
     
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        if segue.identifier == "segueModal1" {
+        if segue.identifier == "showAddName" {
             let destinationVC = segue.destinationViewController as! AddViewController
             destinationVC.delegate = self
         }
