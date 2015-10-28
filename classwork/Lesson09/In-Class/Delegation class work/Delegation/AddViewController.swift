@@ -10,12 +10,14 @@ import UIKit
 
 protocol AddNameDelegate {
     
-    func addName(name: String)
+    func addName (name: String)
 }
+
+
 
 class AddViewController: UIViewController {
     @IBOutlet weak var nameField: UITextField!
-    
+
     var delegate: AddNameDelegate
 
     override func viewDidLoad() {
@@ -43,8 +45,8 @@ class AddViewController: UIViewController {
     
     @IBAction func save(sender: UIButton) {
         
-        self.delegate?.addName(self.nameField.text!)
-        dismiss()
+        // need something right here
+        self.delegate.addName(self.nameField.text!)
     }
     
     @IBAction func cancel(sender: UIButton) {

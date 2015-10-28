@@ -45,14 +45,14 @@
                     <navigationItem key="navigationItem" title="Students" id="hTY-HB-tVf">
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="5OZ-ZM-QZo">
                             <connections>
-                                <segue destination="riu-L3-vgj" kind="presentation" identifier="showAddName" id="QMw-ll-ser"/>
+                                <segue destination="riu-L3-vgj" kind="presentation" identifier="segueModal1" id="QMw-ll-ser"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ERk-ea-eQy" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1090" y="412"/>
+            <point key="canvasLocation" x="990" y="448"/>
         </scene>
         <!--Add View Controller-->
         <scene sceneID="w07-TV-xWQ">

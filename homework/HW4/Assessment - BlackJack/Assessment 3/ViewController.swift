@@ -27,8 +27,27 @@ class ViewController: UIViewController {
     @IBOutlet weak var redBox: UIView!
     override func viewDidLoad() {
         super.viewDidLoad()
+        
     }
 
+    
+    
+    @IBAction func newGameButton(sender: AnyObject) {
+    }
+    
+    
+    
+    
+    @IBAction func AddCardTap(sender: AnyObject) {
+    }
 
+    
+    
+    
+    
+    @IBAction func finishSwipe(sender: AnyObject) {
+    }
+    
+    
 }
 
